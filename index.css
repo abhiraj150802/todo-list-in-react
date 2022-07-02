@@ -1,0 +1,232 @@
+
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     background-color:#d2dbdd;
+   
+    
+    
+}
+/* .heading{
+    text-align: center;
+    padding:20px 0px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color:chocolate;
+   
+    background-color: #fff;
+
+}
+
+
+
+.card{
+
+margin: 10%;
+
+transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+background-color: #fff;
+width: 11.5%;
+border-radius: 12px;
+box-shadow: 0px 13px 10px -7px rgba(0,0,0,0.1);
+float: left;
+}
+.card:hover{
+    box-shadow: 0px 30px 18px -8px rgba(0,0,0,0.1);
+    transform:scale(1.05, 1.05) ;
+}
+.card_img{
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card_info{
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+    background-color: #fff;
+}
+.card_category{
+   font-family: "Raleway", sans-serif;
+   text-transform: capitalize;
+   font-size: 13px;
+   letter-spacing: 2px;
+   color: #868686;
+   background-color: #fff;
+}
+.card_title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+    background-color: #fff;
+    text-transform: capitalize;
+
+}
+button{
+    padding: 5px 8px;
+    font-family: "Raleway", sans-serif;
+    font-size: 10px;
+
+    color: #868686;
+    outline: none;
+   /* border: 1px solid black;*/
+    /* background-color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .card {
+    float: none;
+    margin: 5%;
+    width: 90%; 
+    }
+}
+.card_img{
+  width: 172px;
+  height: 162px;
+}
+.card_info{
+    width: 172px;
+    height: 140px;
+} */ 
+
+
+/* end of netflix css */
+
+
+/* beging of css for hooks practice */
+
+/* div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 12px 20px;
+    background: #9b59b6;
+    color: white;
+    border: 2px solid #eef0f1;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+input{
+    padding: 8px 200px 8px 6px;
+    background: lightsteelblue;
+    color: white;
+} */
+
+
+
+
+
+/* beging of css for todolist practice */
+.maindiv{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.centerdiv{
+    width: 25%;
+    height: 80vh;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px;
+    border-radius: 5px;
+}
+
+h1{
+    color: white;
+    background: #8566aa;
+    padding: 6px 0 2px 0;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+input{
+    width: 60%;
+    text-align: center;
+    height: 30px;
+    top: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+
+
+}
+button{
+    min-height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #8566aa;
+    color: white;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+button:hover{
+    background-color: #20bf6b;
+}
+ol{
+    margin-top: 30px;
+}
+ol li{
+    padding-left: 0px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #8566aa;
+    text-transform: capitalize;
+
+}
+.todostyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.todostyle .fa-times{
+    display: flex;
+    /* flex-direction: row; */
+     justify-content: center; 
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: #8566aa;
+    border-radius: 50%;
+    margin: 0 15px 0 35px;
+    color: aliceblue;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+.todostyle .fa-times:hover{
+    background-color: crimson;
+}
+@media(max-width:768px){
+    .centerdiv{
+        width: 55%;
+        
+    }
+    /* .todostyle .fa-times{
+        display: flex;
+        margin: 0 15px 0 35px;
+        /* flex-direction: row; */
+         /* justify-content: center; 
+        align-items: center;
+    } */ 
+}
